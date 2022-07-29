@@ -1,0 +1,15 @@
+{
+    "/employees/list":"/employees",
+    "/employees/get/:id":"/employees/:id",
+    "/employees/create":"/employees",
+    "/employees/update/:id":"/employees/:id",
+    "/employees/delete/:id":"/employees/:id"
+}
+
+create jsondb.json
+
+
+
+start server -> json-server --watch empDB.json
+change/start server and connect to routes ->  json-server --port 4000 --routes routes.json --watch empDB.json
+use - Postmon and checked
